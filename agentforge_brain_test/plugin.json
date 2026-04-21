@@ -1,0 +1,21 @@
+{
+  "schema_version": "1",
+  "id": "brain-test",
+  "display_name": "Brain Test",
+  "version": "1.0.0",
+  "namespace": "project.brain-test",
+  "backend": {
+    "entry_point": "agentforge_brain_test.plugin:register",
+    "routes_prefix": "/api/brain-test",
+    "resource_providers": []
+  },
+  "agents": [
+    {"name": "brain-test-agent", "path": "agentforge_brain_test/agents/brain_test_agent"}
+  ],
+  "frontend": {
+    "remote_url": "",
+    "nav_label": "Brain Test",
+    "nav_icon": "Brain",
+    "route": "/brain-test"
+  }
+}
