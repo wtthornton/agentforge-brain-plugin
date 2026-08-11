@@ -4,7 +4,6 @@ namespace: project.brain-test.brain-test-agent
 description: Test agent for tapps-brain save/recall round-trip rig.
 keywords: [brain, memory, save, recall, test]
 memory_profile: full
-runner: agentforge_brain_test.agents.brain_test_agent.runner:BrainTestRunner
 ---
 
 # Brain Test Agent
